@@ -1,0 +1,23 @@
+{
+  "name": "firebase-blog",
+  "version": "1.0.0",
+  "description": "Google firebase blog exammple",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoen1x84/firebase-blog.git"
+  },
+  "keywords": [
+    "Google-firebase",
+    "Firebase"
+  ],
+  "author": "Matthew Neil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phoen1x84/firebase-blog/issues"
+  },
+  "homepage": "https://github.com/Phoen1x84/firebase-blog#readme"
+}
