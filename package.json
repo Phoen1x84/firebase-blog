@@ -2,9 +2,9 @@
   "name": "firebase-blog",
   "version": "1.0.0",
   "description": "Google firebase blog exammple",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config ./config/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/Phoen1x84/firebase-blog/issues"
   },
-  "homepage": "https://github.com/Phoen1x84/firebase-blog#readme"
+  "homepage": "https://github.com/Phoen1x84/firebase-blog#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  }
 }
