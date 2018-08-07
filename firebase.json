@@ -5,12 +5,18 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
+    ],    
+    "headers": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "404.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=300"
+          }
+        ]
       }
-    ]
+    ],
+    "cleanUrls": true
   }
 }
