@@ -1,0 +1,66 @@
+
+.banner {
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  background: transparent url(images/e06fab6d2f3fc31039e94ec6b8a401f5.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+.banner::before {
+    background: rgba(205, 28, 23, 0.9);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner__inner {
+    box-sizing: border-box;
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+.banner__title {
+    animation: fade-in 1s 0.25s forwards ease;
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner__title::after {
+      animation: fade-in 1s 0.5s forwards ease;
+      background: #fff;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      margin: 30px 0 0;
+}
+.banner__text {
+    animation: fade-in 1s 0.75s forwards ease;
+    font-size: 22px;
+    max-width: 52ch;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+.banner__title, .banner__text, .banner__title::after {
+    opacity: 0;
+    transform: translateY(30px);
+}
+@keyframes fade-in {
+0% {
+    opacity: 0;
+    transform: translateY(30px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+

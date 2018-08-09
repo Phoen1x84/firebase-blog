@@ -1,12 +1,12 @@
 export default {
     data() {
         return {
-            title: 'Heading text',
-            text: '<p>body text</p>',
+            title: 'Front-End Development / UI & UX',
+            text: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed libero non turpis sagittis porta.</p>',
             link: [
                 {
-                    url: 'https://google.com',
-                    text: 'Find out more'
+                    url: '',
+                    text: ''
                 }
             ]
         }
