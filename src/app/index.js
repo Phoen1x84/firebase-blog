@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 // router pages
 import Home from './routes/home/home.vue';
 import App from './App.vue';
+import "normalize.css";
 
 const routes = [
     { path: '/', name: '', component: Home }

@@ -1,5 +1,5 @@
 <template>
-    <div class="banner">
+    <div class="banner" id="banner">
         <div class="banner__inner">
             <h2 class="banner__title">{{title}}</h2>
             <div class="banner__text" v-html="text" />

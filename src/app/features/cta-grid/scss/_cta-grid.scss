@@ -1,0 +1,8 @@
+.cta-grid {    
+    &__inner {        
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;        
+        justify-content: center;
+    }
+}
