@@ -1,7 +1,11 @@
 <template>
     <div>       
-        <Menu /> 
-        <Banner />
+        <header>
+            <Menu /> 
+        </header>
+        <main>
+            <Banner />
+        </main>
         <!-- <CtaGrid /> -->
     </div>
 </template>
